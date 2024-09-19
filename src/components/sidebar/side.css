@@ -1,0 +1,54 @@
+/* Header */
+nav {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease; 
+}
+
+button:hover {
+  color: #3b82f6; 
+}
+
+img {
+  width: 48px; 
+  height: 48px; 
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid #3b82f6; 
+  transition: transform 0.3s; 
+}
+
+img:hover {
+  transform: scale(1.1); 
+}
+
+
+nav a {
+  color: #1f2937; 
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #3b82f6; 
+  color: white; 
+}
+
+
+nav a.active {
+  background-color: #3b82f6; 
+  color: white; 
+}
